@@ -1,0 +1,484 @@
+body {
+    height: 100%;
+}
+
+.mt46 {
+    margin-top: 1.15rem !important;
+}
+
+.header {
+    box-shadow: 0 1px 12px rgba(16, 6, 25, 0.2);
+}
+
+.section1 {
+    background: #e5e8ec;
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.main {
+    width: 664px;
+    margin: 4rem auto 4.2rem;
+    padding: 1rem 3.25rem 1.2rem;
+    background: #ffffff;
+}
+
+.biaoti {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Microsoft Yahei", "微软雅黑", "Hiragino Sans GB", "WenQuanYi Micro Hei", "宋体", "sans-serif";;
+    color: #333;
+    height: 51px;
+    margin: 0;
+}
+
+.biaoti b {
+    font-weight: 400;
+    font-family: "Microsoft Yahei", "微软雅黑", "Hiragino Sans GB", "WenQuanYi Micro Hei", "宋体", "sans-serif";;
+}
+
+.tips {
+    color: #f71313;
+    margin: 0;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    padding-left: 14px;
+    text-align: left;
+}
+
+.btn {
+    border-radius: 2px;
+    padding: 0;
+}
+
+.form-group input {
+    height: 48px;
+    line-height: 48px;
+}
+
+.form-group input[type=checkbox] {
+    line-height: 15px;
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group span {
+    width: 52px;
+    height: 48px;
+    float: left;
+    background: url(../images/login.png) no-repeat 13px 1px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: 2;
+}
+
+.changebgimg {
+    background-image: url(../images/login1.png) !important;
+}
+
+.form-group .btn {
+    height: 50px;
+    line-height: 14px;
+    letter-spacing: 3px;
+    background: #4b9df3 !important;
+    color: #fff !important;
+    text-align: center;
+    border: 0 none;
+    font-weight: normal;
+}
+
+.form-group a.btn {
+    line-height: 50px;
+}
+
+.email input,
+.identifying-code input,
+.phone-number input,
+.pswd input,
+.username input {
+    padding-left: 52px;
+}
+
+.pswd span {
+    background-position: 13px -50px;
+}
+
+.phone-number span {
+    background-position: 13px -100px;
+}
+
+.identifying-code span {
+    background-position: 13px -153px;
+}
+
+.username span {
+    background-position: 13px -204px;
+}
+
+.form-group {
+    overflow: hidden;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.nav-tabs {
+    margin-bottom: 8px;
+    border-bottom: 0 none;
+    margin-top: 7px;
+}
+
+.nav-tabs > li {
+    width: 92px;
+    height: 40px;
+    margin: 0 6px;
+}
+
+.nav-tabs > li:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.nav-tabs > li:last-of-type {
+    margin-right: 0;
+}
+
+.nav-tabs > li > a {
+    height: 40px !important;
+    line-height: 40px !important;
+    border: 1px solid #d2d4d6;
+    text-align: center;
+    margin: 0;
+    border-radius: 2px;
+    color: #646464;
+    padding: 0 !important;
+    font-size: 14px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li:focus > a,
+.nav-tabs > li > a:hover {
+    background: #E6E6E6 !important;
+    border: 1px solid #E6E6E6;
+}
+
+.nav-tabs > li > a .remeber {
+    line-height: 20px;
+}
+
+.phone-number {
+    overflow: hidden;
+}
+
+.identifying-code input {
+    width: 64%;
+    float: left;
+}
+
+.identifying-code .getnum {
+    width: 33.5%;
+    margin-left: 2.5%;
+    float: left;
+    text-align: center;
+    padding: 6px 0;
+    background: #f5f7f8 !important;
+    color: #646464 !important;
+    font-weight: 400;
+    letter-spacing: 0;
+    border: 1px solid #d2d4d6;
+}
+
+.weixin img {
+    width: 295px;
+    height: auto;
+    margin: 24px auto 20px;
+    display: block;
+}
+
+.bind-main {
+    padding-top: 1.85rem;
+    text-align: center;
+    padding-bottom: 2.3rem;
+}
+
+.bind-main .biaoti {
+    height: 1.25rem;
+    min-height: 30px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.bind-new,
+.bind-old {
+    max-width: 400px;
+    margin: 16px auto;
+    display: block;
+    color: #fff !important;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.bind-old {
+    background: #4b9df3;
+    margin-top: 1.7rem;
+}
+
+.webchat-bind-old {
+    margin-top: 1.15rem;
+}
+
+.bind-new {
+    background: #6dc152;
+}
+
+.userpic {
+    width: 100px;
+    margin: 0 auto 1.1rem;
+    text-align: center;
+}
+
+.old-userpic {
+    margin-bottom: .4rem;
+    margin-top: 2px;
+}
+
+.userpic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.bind {
+    padding-top: 1rem;
+    padding-bottom: 1.25rem;
+}
+
+.webchat-bind {
+    padding-bottom: 1.675rem;
+}
+
+.bind > p:nth-of-type(2) {
+    font-size: 20px;
+    font-family: "Microsoft Yahei", "微软雅黑", "Hiragino Sans GB", "WenQuanYi Micro Hei", "宋体", "sans-serif";;
+    color: #333;
+    height: 1.05rem;
+    min-width: 30px;
+}
+
+.agreement {
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px !important;
+    font-family: "宋体" !important;
+    color: #646464 !important;
+}
+
+.agreement a {
+    color: #4b9df3;
+}
+
+.identify-code input {
+    width: 56%;
+}
+
+.identify-code .identify-pic {
+    width: 100px;
+    height: 38px;
+    overflow: hidden;
+    float: left;
+    margin-top: 5px;
+    border: 1px solid #d2d4d6;
+    margin-left: 0.25rem;
+}
+
+.identify-code img {
+    width: 100%;
+    height: auto;
+}
+
+.identify-code button {
+    width: 66px;
+    margin-top: 12px;
+    padding: 0;
+}
+
+.statuspic {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto 0.75rem;
+    min-width: 100px;
+    min-height: 110px;
+}
+
+.statuspic img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-default {
+    background: #f6f7f9;
+    border: 1px solid #d2d4d6;
+    color: #333333 !important;
+}
+
+.fail-main {
+    padding-top: 1.075rem;
+    padding-bottom: 1.725rem;
+}
+
+.f20 {
+    font-size: .5rem !important;
+    height: 1rem !important;
+}
+
+div.weixin {
+    width: 300px;
+    margin: 0 auto;
+    max-height: 360px;
+
+}
+
+@media screen and (max-width: 40em) {
+    .section1 {
+        padding: 0;
+    }
+
+    .form-group input {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .biaoti {
+        font-size: 16px !important;
+        height: 37px;
+    }
+
+    .main {
+        width: 98%;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+
+    .nav-tabs {
+        width: 288px;
+        margin: 0 auto;
+    }
+
+    .nav-tabs > li {
+        width: 64px;
+        margin: 0 5px;
+    }
+
+    .nav-tabs > li > a {
+        height: 30px !important;
+        line-height: 30px !important;
+    }
+
+    .identifying-code input {
+        float: left;
+    }
+
+    .identify-code input {
+        width: 41%;
+    }
+
+    .weixin img {
+        width: 200px;
+    }
+
+    .bind-new,
+    .bind-old {
+        width: 200px;
+        height: 36px !important;
+        line-height: 30px;
+        font-weight: 400;
+    }
+
+    .bind > p:nth-of-type(2) {
+        font-size: 16px;
+    }
+
+    .form-group input {
+        height: 42px;
+        line-height: 42px;
+        font-size: 12px;
+    }
+
+    .form-group .btn {
+        font-weight: normal;
+        height: 40px !important;
+        font-size: 14px;
+        line-height: 40px !important;
+        padding: 0;
+    }
+
+    .identifying-code .getnum {
+        width: 33%;
+        padding: 6px 4px;
+        line-height: 30px !important;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .btn-default {
+        height: 40px;
+    }
+}
+
+.form-control {
+    height: 50px !important;
+    color: #111;
+    line-height: 50px;
+}
+
+.record {
+    background: #fff;
+    border-top: 1px solid #d2d4d6;
+    padding: 8px 0;
+    color: #646464;
+    height: auto;
+    line-height: 1.35rem;
+    font-size: 14px;
+    min-height: 34px;
+}
+
+.record a {
+    color: #646464;
+}
+
+.forget:hover {
+    color: #4b9df3;
+}
+
+.impowerBox .title {
+    display: none !important;
+}
+
+@media screen and (max-width: 420px) {
+    .record {
+        line-height: 16px !important;
+    }
+
+    .record a {
+        display: block;
+        padding-top: 4px;
+    }
+
+}
+
+/*# sourceMappingURL=login.css.map */

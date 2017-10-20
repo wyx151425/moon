@@ -1,0 +1,307 @@
+body {
+    height: 100%;
+}
+
+.header {
+    box-shadow: 0 1px 12px rgba(16, 6, 25, 0.2);
+}
+
+.section1 {
+    background: #e5e8ec;
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.main {
+    width: 664px;
+    margin: 4rem auto 4.2rem;
+    padding: 1rem 3.25rem 1.2rem;
+    background: #ffffff;
+}
+
+.biaoti {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Microsoft Yahei", "微软雅黑";
+    color: #333;
+    height: 51px;
+    margin: 0;
+}
+
+.tips {
+    color: #f71313;
+    margin: 0;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    padding-left: 14px;
+    text-align: left;
+}
+
+.btn {
+    border-radius: 2px;
+}
+
+.form-group input {
+    height: 48px;
+    line-height: 48px;
+}
+
+.form-group input[type=checkbox] {
+    line-height: 15px;
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.phone-number {
+    overflow: hidden;
+}
+
+.identifying-code input {
+    width: 70%;
+    float: left;
+}
+
+.identifying-code .getnum {
+    width: 29%;
+    margin-left: 1%;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    padding: 6px 0;
+    background: #f5f7f8 !important;
+    color: #646464 !important;
+    font-weight: 400;
+    letter-spacing: 0;
+    border: 1px solid #d2d4d6;
+}
+
+.form-group .btn {
+    height: 48px;
+    line-height: 14px;
+    letter-spacing: 3px;
+    background: #4b9df3 !important;
+    color: #fff !important;
+    text-align: center;
+    border: 0 none;
+    font-weight: normal;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group span {
+    width: 52px;
+    height: 48px;
+    float: left;
+    background: url(../images/login.png) no-repeat 13px 1px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: 2;
+}
+
+.changebgimg {
+    background-image: url(../images/login1.png) !important;
+}
+
+.email input,
+.identifying-code input,
+.phone-number input,
+.pswd input,
+.username input {
+    padding-left: 52px;
+}
+
+.pswd span {
+    background-position: 13px -50px;
+}
+
+.statuspic {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto 0.75rem;
+    min-width: 100px;
+    min-height: 110px;
+}
+
+.statuspic img {
+    width: 100%;
+    height: auto;
+}
+
+.phone-number span {
+    background-position: 13px -100px;
+}
+
+.identifying-code span {
+    background-position: 13px -152px;
+}
+
+.username span {
+    background-position: 13px -204px;
+}
+
+.form-group {
+    overflow: hidden;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.agreement {
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px !important;
+    font-family: "瀹嬩綋" !important;
+    color: #646464 !important;
+}
+
+.agreement a {
+    color: #4b9df3;
+}
+
+select.form-control {
+    height: 48px;
+}
+
+.forget {
+    color: #1d1d1d;
+}
+
+.btngroup {
+    margin-top: 1.15rem !important;
+    overflow: hidden;
+    width: 404px;
+    margin: 0 auto;
+}
+
+.btngroup .btn {
+    width: 195px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    float: left;
+    background: #4b9df3;
+    display: block;
+    border-radius: 2px;
+    margin-right: 14px;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #4b9df3;
+}
+
+.bind-new,
+.bind-old {
+    max-width: 400px;
+    margin: 16px auto;
+    display: block;
+    color: #fff !important;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    border-radius: 3px;
+    padding: 0;
+}
+
+.bind-old {
+    background: #4b9df3;
+    margin-top: 1.15rem;
+}
+
+.btngroup .btn:nth-of-type(2) {
+    color: #333;
+    background: #fafbfc;
+    border-color: #d2d4d6;
+    margin: 0;
+}
+
+@media screen and (max-width: 40em) {
+    .biaoti {
+        font-size: 16px !important;
+        height: 30px;
+    }
+
+    .btngroup {
+        width: 154px;
+        margin-top: 1.5rem !important;
+    }
+
+    .btngroup .btn {
+        width: 70px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .main {
+        width: 98%;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 90px;
+        margin-bottom: 10px;
+    }
+
+    .section1 {
+        padding: 0;
+    }
+
+    .nav-tabs > li {
+        width: 64px;
+        margin: 0 0.15rem;
+    }
+
+    .identifying-code input {
+        width: 65%;
+        float: left;
+    }
+
+    .identify-code input {
+        width: 41%;
+    }
+
+    .identifying-code .getnum {
+        width: 33%;
+        padding: 6px 4px;
+    }
+}
+
+.record {
+    background: #fff;
+    border-top: 1px solid #d2d4d6;
+    padding: 8px 0;
+    color: #646464;
+    height: 1.75rem;
+    line-height: 1.35rem;
+    font-size: 14px;
+    min-height: 34px;
+}
+
+.record a {
+    color: #646464;
+}
+
+.form-control {
+    color: #111;
+}
+
+@media screen and (max-width: 420px) {
+    .record {
+        line-height: 16px !important;
+    }
+
+    .record a {
+        display: block;
+        padding-top: 4px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .main {
+        margin-top: 70px;
+    }
+}
+
+/*# sourceMappingURL=register.css.map */
